@@ -108,6 +108,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 					</div>
 
+					
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="text-right">
