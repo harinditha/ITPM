@@ -1,0 +1,206 @@
+body{
+	font: 15px/1.5 Arial, Helvetica;
+	padding: 0;
+	margin: 0;
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button1{
+	height: 38px;
+	background:#F70239;
+	border:0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#ffffff;
+}
+
+.dark{
+	padding: 15px;
+	background:#35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.op{
+	text-align: left;
+	width: 300px;
+}
+
+.tttt{
+	text-align: left;
+	width: 300px;
+}
+
+.abc{
+	text-align: left;
+	width: 600px;
+}
+
+.dsp{
+	text-align: left;
+	width: 300px;
+	height: 100px;
+}
+
+
+
+/*Header*/
+header{
+	background-color:#022236 ;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #F70239 3px solid; 
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+header .branding{
+	float: left;
+}
+
+header .branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin: 10px;
+}
+
+header .highlight, header .current a{
+	color:#F70239;
+	font-weight: bold; 
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/*Showcase*/
+
+#showcase{
+	min-height: 510px;
+	background:url('../img/STUDENTS.jpg') no-repeat -630px -80px;
+	text-align: center;
+	color: #ffffff;
+
+}
+
+#showcase2{
+	min-height: 510px;
+	text-align: center;
+
+}
+
+#showcase2 h1{
+	margin-top: 50px;
+	font-size: 40px;
+	
+}
+
+#form1{
+	text-align:center;
+	margin-top: 100px;
+}
+
+#form1 input[type="text"]{
+	padding:4px;
+	height: 25px;
+	width: 250px; 
+}
+
+#form1 input[type="Password"]{
+	padding:4px;
+	height: 25px;
+	width: 250px; 
+}
+/*sidebar*/
+#sidebar{
+	float:right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+/*main-col*/
+#main-col{
+	float: left;
+	width: 65%;
+	margin-top: 10px;
+}
+
+section h1{
+	float:center;
+}
+
+footer{
+	padding: 10px;
+	
+	color: #ffffff;
+	background-color: #F70239;
+}
+
+
+
+/*media quaies */
+@media(max-width: 768px){
+	header .branding,
+	header nav,
+	header nav li,
+	#showcase h1,
+	#showcase,
+	#main-col,
+	#sidebar{
+		float: none;
+		text-align: center;
+		width: 100%;	
+	}
+
+	header{
+	padding-bottom: 20px;
+	}
+
+	#showcase h1{
+	margin-top: 40px;
+	}
+
+	#showcase button{
+	display: block;
+	width: 100%;
+	}
+
+	#form1 input[type="text"]{
+	width: 100%;
+	margin-bottom: 5px;
+	}
+
+	#form1 input[type="Password"]{
+	width: 100%;
+	margin-bottom: 5px;
+	}	
+
+}
