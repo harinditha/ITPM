@@ -256,8 +256,7 @@ $uname=$_SESSION['uname'];
                                 </div>
                                 <div class="block-content collapse in">
                                     <table class="table table-striped">
-                                        <thead>
-                                        <tr>
+                                        <thead>                                        <tr>
                                            
                                             <th>#</th>
                                          
